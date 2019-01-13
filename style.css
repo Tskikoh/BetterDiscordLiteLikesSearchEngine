@@ -1,0 +1,144 @@
+.theme-light .markup-2BOw-j{
+    font-size: 13px;
+    color: #2b2b2b;
+}
+.theme-light .username-_4ZSMR{
+    color: #1a0dab;
+    font-size: 18px;
+}
+.theme-light .timestampCozy-2hLAPV {
+    font-size: 14px;
+    color: #006621;
+}
+.theme-light .timestampCozy-2hLAPV::before {
+	content: "\A" ;
+	white-space: pre ;
+}
+.headerCozy-2N9HOL {
+    margin-bottom: 14px;
+}
+.large-3ChYtB {
+   opacity: 0;
+}
+.large-3ChYtB:hover {
+   opacity: 1;
+}
+.iconCollapsed-3hFp_8, 
+.iconDefault-3Gr8d2, 
+.nameCollapsed-34uFWo, 
+.nameDefault-2DI02H{
+    color: #808080;
+    font-size: small;
+    margin-right: 4px;
+}
+.scroller-2wx7Hm{
+    background-color: #fafafa;
+}
+.nameDefaultText-24KCy5,
+.nameDefaultVoice-3WUH7s,
+.nameLockedText-3pqQcL,
+.nameLockedVoice-26MhB1,
+.nameUnreadText-DfkrI4,
+.nameUnreadVoice-EVo-wI,
+.nameMutedText-3Vj4bM,
+.nameMutedVoice-3oxyQZ{
+    color: #777;
+}
+.nameConnectedText-3CzNQn, 
+.nameConnectedVoice-MHUX5F, 
+.nameSelectedText-sp_EUw, 
+.nameSelectedVoice-1qSph5 {
+    color: #1A73E8 !important;
+    border-bottom: 3px solid #1A73E8;
+    margin-bottom: 3px;
+}
+.contentConnectedText-16O0fe,
+.contentConnectedVoice-qL-YrL,
+.contentDefaultText-3vZplL,
+.contentDefaultVoice-2ko43i,
+.contentHoveredText-2D9B-x,
+.contentHoveredVoice-3p_NEO,
+.contentLockedText-1aHuz8,
+.contentLockedVoice-1gx-SP,
+.contentMutedText-2y6aPQ,
+.contentMutedVoice-2lJ0UD,
+.contentSelectedText-3wUhMi,
+.contentSelectedVoice-1WDIBM,
+.contentUnreadText-2vNnZc,
+.contentUnreadVoice-1dijOt {
+    color: #f00;
+}
+.contentSelectedText-3wUhMi, 
+.contentSelectedVoice-1WDIBM{
+    background-color: #fafafa;
+}
+.imageWrapper-2p5ogY img{
+   opacity: 0.03;
+   background-color: #000;
+}
+.imageWrapper-2p5ogY img:hover {
+   opacity: 1;
+}
+.theme-light .edited-DL9ECl{
+    color: #808080;
+    font-size: small;
+    margin-right: 4px;
+}
+.theme-light .edited-DL9ECl::before {
+	content: "\A" ;
+	white-space: pre ;
+}
+.theme-light .guild-1EfMGQ .guildIcon-CT-ZDq{
+   opacity: 0;
+    background-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=");
+}
+.theme-light .guild-1EfMGQ .guildIcon-CT-ZDq:hover {
+   opacity: 1;
+}
+.container-2Rl01u{
+    background-color: #fafafa;
+}
+.name-3YKhmS{
+    color: #000;
+    border: solid 1px;
+    margin: 10px auto;
+    background: #fff;
+    display: flex;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    z-index: 3;
+    height: 30px;
+    padding: 2px 4px 12px 8px;
+}
+.unread-1Dp-OI{
+    background-color: #808080;
+}
+.theme-dark .container-2Thooq,
+.theme-light .container-2Thooq{
+    background-color: #f0f0f0;
+    color:#777;
+}
+.guilds-1q_RqH{
+    /*background-color: #f0f0f0;*/
+    color:#f00;
+    background-image: url("");
+}
+.theme-light .homeIcon-1FoKUJ{
+    opacity: 0;
+}
+.theme-light .homeIcon-1FoKUJ:hover {
+   opacity: 1;
+}
+.theme-light .guild-1EfMGQ.selected-ML3OIq:before{
+    /*background: #1A73E8;*/
+}
+.theme-light .wrapperHover-1GktnT{
+    color: #1a0dab;
+    background: #fff;
+}
+.theme-light .wrapperHover-1GktnT:hover{
+    color: #1a0dab;
+    background: #fff;
+    text-decoration: underline;
+}
