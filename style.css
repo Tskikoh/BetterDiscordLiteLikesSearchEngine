@@ -3,31 +3,66 @@
  * URL: https://github.com/Tsukikoh/
  * LICENSE: GNU GPLv3
 */
-.theme-light .markup-2BOw-j{
+/* if Dark*/
+.theme-dark .messagesWrapper-3lZDfY{
+    background-color: #fff;
+}
+/* quote */
+.theme-dark .markup-2BOw-j code, 
+.theme-dark .markup-2BOw-j code.inline{
+    background: #f8f9f9;
+}
+.theme-dark .markup-2BOw-j pre{
+    background: #f8f9f9;
+    border-color: rgba(227,229,232,.6);
+}
+/* link quote */
+.theme-dark .embedPill-1Zntps {
+    background-color: #cacbce;
+}
+.theme-dark .embedInner-1-fpTo{
+    background: hsla(0,0%,97.6%,.3);
+    border: 1px solid hsla(0,0%,80.4%,.3);
+}
+
+/* All */
+/* message */
+.theme-light .markup-2BOw-j,
+.theme-dark .markup-2BOw-j{
     font-size: 13px;
     color: #2b2b2b;
 }
-.theme-light .username-_4ZSMR{
+/* Name */
+.theme-light .username-_4ZSMR,
+.theme-dark .username-_4ZSMR{
     color: #1a0dab;
     font-size: 18px;
 }
-.theme-light .timestampCozy-2hLAPV {
+/* Date */
+.theme-light .timestampCozy-2hLAPV,
+.theme-dark .timestampCozy-2hLAPV {
     font-size: 14px;
     color: #006621;
 }
-.theme-light .timestampCozy-2hLAPV::before {
-	content: "\A" ;
-	white-space: pre ;
+/* Date break */
+.theme-light .timestampCozy-2hLAPV::before,
+.theme-dark .timestampCozy-2hLAPV::before {
+    content: "\A" ;
+    white-space: pre ;
 }
+/* Date break margin */
 .headerCozy-2N9HOL {
     margin-bottom: 14px;
 }
+/* icon hidden */
 .large-3ChYtB {
    opacity: 0;
 }
+/* icon on cursor */
 .large-3ChYtB:hover {
    opacity: 1;
 }
+/* channel category */
 .iconCollapsed-3hFp_8, 
 .iconDefault-3Gr8d2, 
 .nameCollapsed-34uFWo, 
@@ -36,6 +71,7 @@
     font-size: small;
     margin-right: 4px;
 }
+/* channel menu */
 .scroller-2wx7Hm{
     background-color: #fafafa;
 }
@@ -49,10 +85,11 @@
 .nameMutedVoice-3oxyQZ{
     color: #777;
 }
+/* current channel */
 .nameConnectedText-3CzNQn, 
 .nameConnectedVoice-MHUX5F, 
 .nameSelectedText-sp_EUw, 
-.nameSelectedVoice-1qSph5 {
+.nameSelect-1qSph5 {
     color: #1A73E8 !important;
     border-bottom: 3px solid #1A73E8;
     margin-bottom: 3px;
@@ -77,8 +114,19 @@
 .contentSelectedVoice-1WDIBM{
     background-color: #fafafa;
 }
+.imageWrapper-2p5ogY{
+   /*border: solid 1px #000;*/
+   background-color:#eee;
+}
+.imageWrapper-2p5ogY:after{
+    color: #ccc;
+    padding-left: 10px;
+    content: "Image";
+    font-size: 20px;
+    font-weight: bold;
+}
 .imageWrapper-2p5ogY img{
-   opacity: 0.03;
+   opacity: 0.02;
    background-color: #000;
 }
 .imageWrapper-2p5ogY img:hover {
@@ -89,9 +137,12 @@
     font-size: small;
     margin-right: 4px;
 }
+.imageWrapper-2p5ogY:hover{
+   /*border: solid 1px #fff;*/
+}
 .theme-light .edited-DL9ECl::before {
-	content: "\A" ;
-	white-space: pre ;
+    content: "\A" ;
+    white-space: pre ;
 }
 .theme-light .guild-1EfMGQ .guildIcon-CT-ZDq{
    opacity: 0;
@@ -129,21 +180,52 @@
     color:#f00;
     background-image: url("");
 }
+/* Servers icon */
+.theme-dark .homeIcon-1FoKUJ,
 .theme-light .homeIcon-1FoKUJ{
     opacity: 0;
 }
+.theme-dark .homeIcon-1FoKUJ:hover,
 .theme-light .homeIcon-1FoKUJ:hover {
    opacity: 1;
 }
+.theme-dark .guild-1EfMGQ.selected-ML3OIq:before,
 .theme-light .guild-1EfMGQ.selected-ML3OIq:before{
     /*background: #1A73E8;*/
 }
+.theme-dark .wrapperHover-1GktnT,
 .theme-light .wrapperHover-1GktnT{
     color: #1a0dab;
     background: #fff;
 }
+.theme-dark .wrapperHover-1GktnT:hover,
 .theme-light .wrapperHover-1GktnT:hover{
     color: #1a0dab;
     background: #fff;
     text-decoration: underline;
+}
+/* Mention */
+.isMentionedCozy-3isp7y {
+    margin-top: 22px;
+    margin-left: 22px;
+}
+.theme-dark .isMentioned-N-h9aa .mention,
+.theme-light .isMentioned-N-h9aa .mention{
+    font-size: 18px;
+}
+.theme-dark .isMentioned-N-h9aa,
+.theme-light .isMentioned-N-h9aa{
+    background: rgba(255,255,255,0);
+    border-top: 1px solid #ddd;
+    border-right: 3px solid #aaa;
+    border-bottom: 3px solid #aaa;
+}
+.isMentionedCozy-3isp7y:after {
+    background: rgba(255,255,255,0);
+    border-left: 4px solid #1A73E8;
+}
+/* Mention break */
+.mention::after {
+    content: "\A" ;
+    white-space: pre ;
 }
